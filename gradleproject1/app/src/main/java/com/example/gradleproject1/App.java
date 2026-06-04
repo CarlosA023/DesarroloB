@@ -28,6 +28,17 @@ public class App {
         int division = n3/n4;
         System.out.println("su division: " +division);
 
+        
+        
+         System.out.println("MULTIPLICACIÓN"); //Emerson Yanchapanta
+        System.out.println("Ingrese otro numero : ");
+        int n5= sc.nextInt();
+        System.out.println("Ingrese otro numero : ");
+        int n6= sc.nextInt(); 
+        
+        int multiplicacion = n5*n6;
+        System.out.println("su multiplicación es : " +multiplicacion);
+
         System.out.println("prueba de cambios");
     }
 }
