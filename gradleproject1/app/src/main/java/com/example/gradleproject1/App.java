@@ -61,9 +61,12 @@ public class App {
         int n12= sc.nextInt();
 
         int rest= n10-n11;
-        int multi=rest*n12
+        int multi=rest*n12;
         System.out.println("su resultado: " +multi);
+        
+        
         System.out.println("prueba de cambios final");
+        System.out.println("prueba final yo");//bryan sasigS
         
     }
 }
