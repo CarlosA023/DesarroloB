@@ -51,5 +51,19 @@ public class App {
         System.out.println("prueba de cambios"); 
         
         System.out.println("prueba de cambios final");
+        
+        System.out.println("resta y multiplicacion");//Bryan Sasig
+        System.out.println("Ingrese otro numero : ");
+        int n10= sc.nextInt();
+        System.out.println("Ingrese otro numero : ");
+        int n11= sc.nextInt(); 
+        System.out.println("Ingrese otro numero : ");
+        int n12= sc.nextInt();
+
+        int rest= n10-n11;
+        int multi=rest*n12
+        System.out.println("su resultado: " +multi);
+        System.out.println("prueba de cambios final");
+        
     }
 }
