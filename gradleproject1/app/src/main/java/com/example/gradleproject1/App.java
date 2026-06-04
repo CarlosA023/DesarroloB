@@ -50,7 +50,11 @@ public class App {
         
         System.out.println("prueba de cambios"); 
         
-        System.out.println("Deber terminado");
+        System.out.println("operacion suma por resta");
+        System.out.println("Suma: "+suma);
+        System.out.println("resta: "+resta);
+        int resultado = suma-resta;
+        
         
     }
 }
