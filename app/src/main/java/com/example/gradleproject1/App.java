@@ -102,15 +102,44 @@ public class App {
         String contraseña= "hola123";        
           System.out.println("ALGORITMO PARA VALIDAR UNA CONTRASÑA: "); 
           System.out.println("CAMBIO DE CONTRASEÑA: ");
-          System.out.println("INGRESE LA CONTRASEÑA ACTUAL: ");
-          String clave_actual=sc.nextLine();
-          System.out.println("clave actual ingresada: "+ clave_actual);
-         
           
+          int intentos=3;
+          boolean acceso=false;
           
-          
-        
-          
-       
+          while(intentos>0){
+              System.out.println("CAMBIO DE CONTRASEÑA ");
+              System.out.println("INGRESE LA CONTRASEÑA ACTUAL: ");
+              String clave_actual=sc.nextLine();
+              System.out.println("clave actual ingresada: "+ clave_actual);
+              
+                  if (clave_actual.equals(contraseña)) {
+                    acceso = true;
+                    break;
+                   } else {
+                    intentos--;
+                    System.out.println("Contraseña incorrecta.");
+                    System.out.println("Intentos restantes: " + intentos);
+                  }
+          }
+          if (acceso) {
+
+    System.out.println("Ingrese la nueva contraseña: ");
+    String nuevaClave = sc.nextLine();
+
+    System.out.println("Repita la nueva contraseña: ");
+    String repetirClave = sc.nextLine();
+
+    if (nuevaClave.equals(repetirClave)) {
+        contraseña = nuevaClave;
+        System.out.println("Contraseña cambiada exitosamente.");
+    } else {
+        System.out.println("Las contraseñas no coinciden.");
+    }
+
+} else {
+    System.out.println("Acceso bloqueado. Se agotaron los 3 intentos.");
+}
     }
 }
+                        
+     
