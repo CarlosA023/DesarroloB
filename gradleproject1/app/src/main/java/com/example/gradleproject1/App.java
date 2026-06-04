@@ -39,7 +39,7 @@ public class App {
         int multiplicacion = n5*n6;
         System.out.println("su multiplicación es : " +multiplicacion);
       
-        System.out.println("RESTA"); //Jean Guamangate
+        System.out.println(" OPERACION RESTA"); //Jean Guamangate
         System.out.println("Ingrese otro numero : ");
         int n7= sc.nextInt();
         System.out.println("Ingrese otro numero : ");
@@ -48,6 +48,9 @@ public class App {
         int resta= n7-n8;
         System.out.println("su resta: " +resta);
         
-        System.out.println("prueba de cambios");  
+        System.out.println("prueba de cambios"); 
+        
+        System.out.println("Deber terminado");
+        
     }
 }
