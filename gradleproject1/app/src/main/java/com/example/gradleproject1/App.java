@@ -30,7 +30,7 @@ public class App {
 
         
         
-         System.out.println("MULTIPLICACIÓN"); //Emerson Yanchapanta
+        System.out.println("MULTIPLICACIÓN"); //Emerson Yanchapanta
         System.out.println("Ingrese otro numero : ");
         int n5= sc.nextInt();
         System.out.println("Ingrese otro numero : ");
@@ -38,7 +38,16 @@ public class App {
         
         int multiplicacion = n5*n6;
         System.out.println("su multiplicación es : " +multiplicacion);
-
-        System.out.println("prueba de cambios");
+      
+        System.out.println("RESTA"); //Jean Guamangate
+        System.out.println("Ingrese otro numero : ");
+        int n7= sc.nextInt();
+        System.out.println("Ingrese otro numero : ");
+        int n8= sc.nextInt(); 
+        
+        int resta= n7-n8;
+        System.out.println("su resta: " +resta);
+        
+        System.out.println("prueba de cambios");  
     }
 }
