@@ -80,7 +80,23 @@ public class App {
         System.out.println("Suma: "+suma);
         System.out.println("resta: "+resta);
         System.out.println("RESULTADO: "+resultado);
+        
+        
+        
+        System.out.println("suma y multiplicacion");//Emerson Yanchapanta
+        System.out.println("Ingrese otro numero : ");
+        int n9= sc.nextInt();
+        System.out.println("Ingrese otro numero : ");
+        int n101= sc.nextInt(); 
+        System.out.println("Ingrese otro numero : ");
+        int n112= sc.nextInt();
 
+        int sum= n9+n101;
+        int mult=sum*n112;
+        System.out.println("su resultado: " +mult);
+        
+        System.out.println("prueba de cambios final");
+        System.out.println("prueba de exito");
         
        
     }
