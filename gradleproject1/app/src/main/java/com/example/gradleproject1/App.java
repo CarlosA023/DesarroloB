@@ -19,8 +19,15 @@ public class App {
         int suma = n1+n2;
         System.out.println("su suma: " +suma);
         
-        System.out.println("prueba de cambios");
-                
+        System.out.println("DIVISION"); //Bryan Sasig
+        System.out.println("Ingrese otro numero : ");
+        int n3= sc.nextInt();
+        System.out.println("Ingrese otro numero : ");
+        int n4= sc.nextInt(); 
         
+        int division = n3/n4;
+        System.out.println("su division: " +division);
+
+        System.out.println("prueba de cambios");
     }
 }
