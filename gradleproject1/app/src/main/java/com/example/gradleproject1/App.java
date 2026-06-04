@@ -50,11 +50,38 @@ public class App {
         
         System.out.println("prueba de cambios"); 
         
+<<<<<<< HEAD
         System.out.println("operacion suma por resta");
         System.out.println("Suma: "+suma);
         System.out.println("resta: "+resta);
         int resultado = suma-resta;
         
         
+=======
+        System.out.println("prueba de cambios final");
+        
+        System.out.println("resta y multiplicacion");//Bryan Sasig
+        System.out.println("Ingrese otro numero : ");
+        int n10= sc.nextInt();
+        System.out.println("Ingrese otro numero : ");
+        int n11= sc.nextInt(); 
+        System.out.println("Ingrese otro numero : ");
+        int n12= sc.nextInt();
+
+        int rest= n10-n11;
+        int multi=rest*n12;
+        System.out.println("su resultado: " +multi);
+        
+        
+        System.out.println("prueba de cambios final");
+        System.out.println("prueba final yo");//bryan sasigS
+        
+        System.out.println("suma resta");
+        System.out.println("Suma: "+suma);
+        System.out.println("resta: "+resta);
+        System.out.println("RESULTADO: "+resultado);
+
+        
+       
     }
 }
